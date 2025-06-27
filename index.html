@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taskly</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="vanta-bg">
+    <div class="container">
+      <h1>Taskly ✅</h1>
+      <div class="input-group">
+        <input type="text" id="task-input" placeholder="Ajouter une tâche..." />
+        <button id="add-task">Ajouter</button>
+      </div>
+
+      <div class="filters">
+        <button data-filter="all">Toutes</button>
+        <button data-filter="active">En cours</button>
+        <button data-filter="completed">Terminées</button>
+      </div>
+
+      <ul id="task-list"></ul>
+
+      <button id="import-tasks">Importer des tâches 🔄</button>
+    </div>
+  </div>
+
+  #Le script est libre animation sobre
+  
+  <script src="script.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.waves.min.js"></script>
+</body>
+</html>
